@@ -11,7 +11,7 @@ phases:
       - export CODEARTIFACT_AUTH_TOKEN
   build:
     commands:
-      - echo "====== BEGINNING TEST PHASE ======"
+      - echo "======= BEGINNING TEST PHASE ======="
       - echo "Running tests on `date`"
       - chmod +x run-tests.sh
       - ./run-tests.sh
